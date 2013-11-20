@@ -11,11 +11,11 @@ Right now it continas the following 3 functions.
         sign into +ve sign through out its calculation of determinant.
 
 
-2. getmax():  
+2. nextmax(x, val):  
         Returns the max value next to the top max value of the numpy x.
         If val doesnot passed by user, it returns the second most max value.
 
-3. getmin():     
+3. nextmin(x, val):     
         Returns the min value next to the least min value of the numpy x.
         If val doesnot passed by user, it returns the second lease min value.
 
