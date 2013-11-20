@@ -1,4 +1,22 @@
 numpy-utils
 ===========
 
-NumPy-Utils contains utilities of numpy which are all created by me. Eg : get nextMax, nextMin, calculate_matrix_permanent and etc
+NumPy-Utils contains utilities of numpy.
+
+Right now it continas the following 3 functions.
+
+1. permanent
+        permanent: Square Matrix permanent, it would be numpy data or list data.
+        Matrix permanent is just same as determinant of the matrix but change -ve
+        sign into +ve sign through out its calculation of determinant.
+
+
+2. getmax
+        Returns the max value next to the top max value of the numpy x.
+        If val doesnot passed by user, it returns the second most max value.
+
+3. getmin  
+        Returns the min value next to the least min value of the numpy x.
+        If val doesnot passed by user, it returns the second lease min value.
+
+In future more utilites will be added.
